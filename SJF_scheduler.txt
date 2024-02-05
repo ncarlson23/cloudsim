@@ -1,0 +1,134 @@
+Starting SJF Scheduler...
+Reading the Matrices...
+Initialising...
+Starting CloudSim version 3.0
+Datacenter_0 is starting...
+Datacenter_1 is starting...
+Datacenter_2 is starting...
+Datacenter_3 is starting...
+Datacenter_4 is starting...
+Broker_0 is starting...
+Entities started.
+0.0: Broker_0: Cloud Resource List received with 5 resource(s)
+0.0: Broker_0: Trying to Create VM #2 in Datacenter_0
+0.0: Broker_0: Trying to Create VM #3 in Datacenter_1
+0.0: Broker_0: Trying to Create VM #4 in Datacenter_2
+0.0: Broker_0: Trying to Create VM #5 in Datacenter_3
+0.0: Broker_0: Trying to Create VM #6 in Datacenter_4
+0.1: Broker_0: VM #2 has been created in Datacenter #2, Host #0
+0.1: Broker_0: VM #3 has been created in Datacenter #3, Host #0
+0.1: Broker_0: VM #4 has been created in Datacenter #4, Host #0
+0.1: Broker_0: VM #5 has been created in Datacenter #5, Host #0
+0.1: Broker_0: VM #6 has been created in Datacenter #6, Host #0
+0.1: Broker_0: Sending cloudlet 0 to VM #5
+0.1: Broker_0: Sending cloudlet 1 to VM #2
+0.1: Broker_0: Sending cloudlet 2 to VM #6
+0.1: Broker_0: Sending cloudlet 3 to VM #3
+0.1: Broker_0: Sending cloudlet 4 to VM #5
+0.1: Broker_0: Sending cloudlet 5 to VM #3
+0.1: Broker_0: Sending cloudlet 6 to VM #4
+0.1: Broker_0: Sending cloudlet 7 to VM #3
+0.1: Broker_0: Sending cloudlet 8 to VM #5
+0.1: Broker_0: Sending cloudlet 9 to VM #3
+0.1: Broker_0: Sending cloudlet 10 to VM #5
+0.1: Broker_0: Sending cloudlet 11 to VM #4
+0.1: Broker_0: Sending cloudlet 12 to VM #6
+0.1: Broker_0: Sending cloudlet 13 to VM #4
+0.1: Broker_0: Sending cloudlet 14 to VM #5
+0.1: Broker_0: Sending cloudlet 15 to VM #3
+0.1: Broker_0: Sending cloudlet 16 to VM #2
+0.1: Broker_0: Sending cloudlet 17 to VM #4
+0.1: Broker_0: Sending cloudlet 18 to VM #2
+0.1: Broker_0: Sending cloudlet 19 to VM #3
+0.1: Broker_0: Sending cloudlet 20 to VM #5
+0.1: Broker_0: Sending cloudlet 21 to VM #4
+0.1: Broker_0: Sending cloudlet 22 to VM #5
+0.1: Broker_0: Sending cloudlet 23 to VM #4
+0.1: Broker_0: Sending cloudlet 24 to VM #2
+0.1: Broker_0: Sending cloudlet 25 to VM #2
+0.1: Broker_0: Sending cloudlet 26 to VM #2
+0.1: Broker_0: Sending cloudlet 27 to VM #5
+0.1: Broker_0: Sending cloudlet 28 to VM #4
+0.1: Broker_0: Sending cloudlet 29 to VM #3
+2322.336: Broker_0: Cloudlet 0 received
+2448.392: Broker_0: Cloudlet 2 received
+2524.304: Broker_0: Cloudlet 6 received
+2697.312: Broker_0: Cloudlet 3 received
+3374.416: Broker_0: Cloudlet 5 received
+3590.844: Broker_0: Cloudlet 12 received
+3838.612: Broker_0: Cloudlet 1 received
+4021.5: Broker_0: Cloudlet 11 received
+4866.54: Broker_0: Cloudlet 4 received
+5432.228: Broker_0: Cloudlet 7 received
+5728.36: Broker_0: Cloudlet 8 received
+6577.907999999999: Broker_0: Cloudlet 13 received
+6862.724: Broker_0: Cloudlet 9 received
+6976.532: Broker_0: Cloudlet 16 received
+7890.7119999999995: Broker_0: Cloudlet 10 received
+8589.116: Broker_0: Cloudlet 15 received
+8890.196: Broker_0: Cloudlet 17 received
+10112.592: Broker_0: Cloudlet 18 received
+10829.988: Broker_0: Cloudlet 21 received
+10852.996: Broker_0: Cloudlet 14 received
+11424.488: Broker_0: Cloudlet 19 received
+12312.508: Broker_0: Cloudlet 23 received
+12872.524000000001: Broker_0: Cloudlet 24 received
+13321.612: Broker_0: Cloudlet 29 received
+13341.383999999998: Broker_0: Cloudlet 20 received
+14065.448: Broker_0: Cloudlet 28 received
+15717.544000000002: Broker_0: Cloudlet 25 received
+16454.64: Broker_0: Cloudlet 22 received
+17572.66: Broker_0: Cloudlet 27 received
+17913.396: Broker_0: Cloudlet 26 received
+17913.396: Broker_0: All Cloudlets executed. Finishing...
+17913.396: Broker_0: Destroying VM #2
+17913.396: Broker_0: Destroying VM #3
+17913.396: Broker_0: Destroying VM #4
+17913.396: Broker_0: Destroying VM #5
+17913.396: Broker_0: Destroying VM #6
+Broker_0 is shutting down...
+Simulation: No more future events
+CloudInformationService: Notify all CloudSim entities for shutting down.
+Datacenter_0 is shutting down...
+Datacenter_1 is shutting down...
+Datacenter_2 is shutting down...
+Datacenter_3 is shutting down...
+Datacenter_4 is shutting down...
+Broker_0 is shutting down...
+Simulation completed.
+Simulation completed.
+
+========== OUTPUT ==========
+Cloudlet ID    STATUS    Data center ID    VM ID        Time    Start Time    Finish Time
+    00        SUCCESS        05            05        2322.24        00.1            2322.34
+    02        SUCCESS        06            06        2448.29        00.1            2448.39
+    06        SUCCESS        04            04        2524.2        00.1            2524.3
+    03        SUCCESS        03            03        2697.21        00.1            2697.31
+    05        SUCCESS        03            03        677.1        2697.31            3374.42
+    12        SUCCESS        06            06        1142.45        2448.39            3590.84
+    01        SUCCESS        02            02        3838.51        00.1            3838.61
+    11        SUCCESS        04            04        1497.2        2524.3            4021.5
+    04        SUCCESS        05            05        2544.2        2322.34            4866.54
+    07        SUCCESS        03            03        2057.81        3374.42            5432.23
+    08        SUCCESS        05            05        861.82        4866.54            5728.36
+    13        SUCCESS        04            04        2556.41        4021.5            6577.91
+    09        SUCCESS        03            03        1430.5        5432.23            6862.72
+    16        SUCCESS        02            02        3137.92        3838.61            6976.53
+    10        SUCCESS        05            05        2162.35        5728.36            7890.71
+    15        SUCCESS        03            03        1726.39        6862.72            8589.12
+    17        SUCCESS        04            04        2312.29        6577.91            8890.2
+    18        SUCCESS        02            02        3136.06        6976.53            10112.59
+    21        SUCCESS        04            04        1939.79        8890.2            10829.99
+    14        SUCCESS        05            05        2962.28        7890.71            10853
+    19        SUCCESS        03            03        2835.37        8589.12            11424.49
+    23        SUCCESS        04            04        1482.52        10829.99            12312.51
+    24        SUCCESS        02            02        2759.93        10112.59            12872.52
+    29        SUCCESS        03            03        1897.12        11424.49            13321.61
+    20        SUCCESS        05            05        2488.39        10853            13341.38
+    28        SUCCESS        04            04        1752.94        12312.51            14065.45
+    25        SUCCESS        02            02        2845.02        12872.52            15717.54
+    22        SUCCESS        05            05        3113.26        13341.38            16454.64
+    27        SUCCESS        05            05        1118.02        16454.64            17572.66
+    26        SUCCESS        02            02        2195.85        15717.54            17913.4
+Makespan using SJF: 4717.783220388991
+SJF.SJF_Scheduler finished!

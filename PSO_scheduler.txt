@@ -1,0 +1,195 @@
+Starting PSO Scheduler...
+Reading the Matrices...
+Gloabl best at iteration (0): 7768.757106
+Gloabl best at iteration (10): 7149.504729
+Gloabl best at iteration (20): 6500.735911
+Gloabl best at iteration (30): 6230.259709
+Gloabl best at iteration (40): 6001.323435
+Gloabl best at iteration (50): 5992.158068
+Gloabl best at iteration (60): 5964.117378
+Gloabl best at iteration (70): 5964.117378
+Gloabl best at iteration (80): 5964.117378
+Gloabl best at iteration (90): 5964.117378
+Gloabl best at iteration (100): 5964.117378
+Gloabl best at iteration (110): 5964.117378
+Gloabl best at iteration (120): 5964.117378
+Gloabl best at iteration (130): 5964.117378
+Gloabl best at iteration (140): 5964.117378
+Gloabl best at iteration (150): 5964.117378
+Gloabl best at iteration (160): 5963.809554
+Gloabl best at iteration (170): 5963.809554
+Gloabl best at iteration (180): 5963.809554
+Gloabl best at iteration (190): 5963.809554
+Gloabl best at iteration (200): 5963.809554
+Gloabl best at iteration (210): 5963.809554
+Gloabl best at iteration (220): 5963.809554
+Gloabl best at iteration (230): 5963.809554
+Gloabl best at iteration (240): 5963.809554
+Gloabl best at iteration (250): 5963.809554
+Gloabl best at iteration (260): 5963.809554
+Gloabl best at iteration (270): 5963.809554
+Gloabl best at iteration (280): 5963.809554
+Gloabl best at iteration (290): 5963.809554
+Gloabl best at iteration (300): 5963.809554
+Gloabl best at iteration (310): 5963.809554
+Gloabl best at iteration (320): 5963.809554
+Gloabl best at iteration (330): 5963.809554
+Gloabl best at iteration (340): 5963.809554
+Gloabl best at iteration (350): 5963.809554
+Gloabl best at iteration (360): 5963.809554
+Gloabl best at iteration (370): 5963.809554
+Gloabl best at iteration (380): 5963.809554
+Gloabl best at iteration (390): 5963.809554
+Gloabl best at iteration (400): 5963.809554
+Gloabl best at iteration (410): 5963.809554
+Gloabl best at iteration (420): 5963.809554
+Gloabl best at iteration (430): 5963.809554
+Gloabl best at iteration (440): 5963.809554
+Gloabl best at iteration (450): 5963.809554
+Gloabl best at iteration (460): 5963.809554
+Gloabl best at iteration (470): 5963.809554
+Gloabl best at iteration (480): 5963.809554
+Gloabl best at iteration (490): 5963.809554
+
+The best fitness value: 5963.809554270463
+Best makespan: 3126.130568252154
+The best solution is: 
+There are 5 tasks associated to Data Center 0 and they are 3 7 13 16 21
+There are 9 tasks associated to Data Center 1 and they are 2 4 5 9 20 22 23 24 29
+There are 4 tasks associated to Data Center 2 and they are 1 11 17 18
+There are 6 tasks associated to Data Center 3 and they are 6 8 15 19 26 27
+There are 6 tasks associated to Data Center 4 and they are 0 10 12 14 25 28
+
+Initialising...
+Starting CloudSim version 3.0
+Datacenter_0 is starting...
+Datacenter_1 is starting...
+Datacenter_2 is starting...
+Datacenter_3 is starting...
+Datacenter_4 is starting...
+Broker_0 is starting...
+Entities started.
+0.0: Broker_0: Cloud Resource List received with 5 resource(s)
+0.0: Broker_0: Trying to Create VM #2 in Datacenter_0
+0.0: Broker_0: Trying to Create VM #3 in Datacenter_1
+0.0: Broker_0: Trying to Create VM #4 in Datacenter_2
+0.0: Broker_0: Trying to Create VM #5 in Datacenter_3
+0.0: Broker_0: Trying to Create VM #6 in Datacenter_4
+0.1: Broker_0: VM #2 has been created in Datacenter #2, Host #0
+0.1: Broker_0: VM #3 has been created in Datacenter #3, Host #0
+0.1: Broker_0: VM #4 has been created in Datacenter #4, Host #0
+0.1: Broker_0: VM #5 has been created in Datacenter #5, Host #0
+0.1: Broker_0: VM #6 has been created in Datacenter #6, Host #0
+0.1: Broker_0: Sending cloudlet 0 to VM #2
+0.1: Broker_0: Sending cloudlet 1 to VM #3
+0.1: Broker_0: Sending cloudlet 2 to VM #4
+0.1: Broker_0: Sending cloudlet 3 to VM #5
+0.1: Broker_0: Sending cloudlet 4 to VM #4
+0.1: Broker_0: Sending cloudlet 5 to VM #4
+0.1: Broker_0: Sending cloudlet 6 to VM #6
+0.1: Broker_0: Sending cloudlet 7 to VM #5
+0.1: Broker_0: Sending cloudlet 8 to VM #6
+0.1: Broker_0: Sending cloudlet 9 to VM #4
+0.1: Broker_0: Sending cloudlet 10 to VM #2
+0.1: Broker_0: Sending cloudlet 11 to VM #3
+0.1: Broker_0: Sending cloudlet 12 to VM #2
+0.1: Broker_0: Sending cloudlet 13 to VM #5
+0.1: Broker_0: Sending cloudlet 14 to VM #2
+0.1: Broker_0: Sending cloudlet 15 to VM #6
+0.1: Broker_0: Sending cloudlet 16 to VM #5
+0.1: Broker_0: Sending cloudlet 17 to VM #3
+0.1: Broker_0: Sending cloudlet 18 to VM #3
+0.1: Broker_0: Sending cloudlet 19 to VM #6
+0.1: Broker_0: Sending cloudlet 20 to VM #4
+0.1: Broker_0: Sending cloudlet 21 to VM #5
+0.1: Broker_0: Sending cloudlet 22 to VM #4
+0.1: Broker_0: Sending cloudlet 23 to VM #4
+0.1: Broker_0: Sending cloudlet 24 to VM #4
+0.1: Broker_0: Sending cloudlet 25 to VM #2
+0.1: Broker_0: Sending cloudlet 26 to VM #6
+0.1: Broker_0: Sending cloudlet 27 to VM #6
+0.1: Broker_0: Sending cloudlet 28 to VM #2
+0.1: Broker_0: Sending cloudlet 29 to VM #4
+430.396: Broker_0: Cloudlet 2 received
+945.26: Broker_0: Cloudlet 6 received
+1551.348: Broker_0: Cloudlet 3 received
+1807.08: Broker_0: Cloudlet 8 received
+2091.848: Broker_0: Cloudlet 4 received
+2381.06: Broker_0: Cloudlet 1 received
+2404.188: Broker_0: Cloudlet 0 received
+2768.952: Broker_0: Cloudlet 5 received
+3650.684: Broker_0: Cloudlet 15 received
+3878.256: Broker_0: Cloudlet 11 received
+4103.424: Broker_0: Cloudlet 10 received
+4199.448: Broker_0: Cloudlet 9 received
+4622.428: Broker_0: Cloudlet 7 received
+5245.876: Broker_0: Cloudlet 12 received
+5669.1320000000005: Broker_0: Cloudlet 19 received
+6190.544: Broker_0: Cloudlet 17 received
+6200.860000000001: Broker_0: Cloudlet 14 received
+6776.32: Broker_0: Cloudlet 13 received
+7029.756: Broker_0: Cloudlet 20 received
+7377.240000000001: Broker_0: Cloudlet 26 received
+7476.916: Broker_0: Cloudlet 22 received
+7696.888: Broker_0: Cloudlet 18 received
+7707.416000000001: Broker_0: Cloudlet 25 received
+8236.756: Broker_0: Cloudlet 23 received
+8495.26: Broker_0: Cloudlet 27 received
+9537.544000000002: Broker_0: Cloudlet 28 received
+9914.24: Broker_0: Cloudlet 16 received
+10193.256: Broker_0: Cloudlet 24 received
+12090.38: Broker_0: Cloudlet 29 received
+12520.608: Broker_0: Cloudlet 21 received
+12520.608: Broker_0: Destroying VM #2
+12520.608: Broker_0: Destroying VM #3
+12520.608: Broker_0: Destroying VM #4
+12520.608: Broker_0: Destroying VM #5
+12520.608: Broker_0: Destroying VM #6
+Simulation: No more future events
+CloudInformationService: Notify all CloudSim entities for shutting down.
+Datacenter_0 is shutting down...
+Datacenter_1 is shutting down...
+Datacenter_2 is shutting down...
+Datacenter_3 is shutting down...
+Datacenter_4 is shutting down...
+Broker_0 is shutting down...
+Simulation completed.
+Simulation completed.
+
+========== OUTPUT ==========
+Cloudlet ID    STATUS    Data center ID    VM ID        Time    Start Time    Finish Time
+    02        SUCCESS        04            04        430.3        00.1            430.4
+    06        SUCCESS        06            06        945.16        00.1            945.26
+    03        SUCCESS        05            05        1551.25        00.1            1551.35
+    08        SUCCESS        06            06        861.82        945.26            1807.08
+    04        SUCCESS        04            04        1661.45        430.4            2091.85
+    01        SUCCESS        03            03        2380.96        00.1            2381.06
+    00        SUCCESS        02            02        2404.09        00.1            2404.19
+    05        SUCCESS        04            04        677.1        2091.85            2768.95
+    15        SUCCESS        06            06        1843.6        1807.08            3650.68
+    11        SUCCESS        03            03        1497.2        2381.06            3878.26
+    10        SUCCESS        02            02        1699.24        2404.19            4103.42
+    09        SUCCESS        04            04        1430.5        2768.95            4199.45
+    07        SUCCESS        05            05        3071.08        1551.35            4622.43
+    12        SUCCESS        02            02        1142.45        4103.42            5245.88
+    19        SUCCESS        06            06        2018.45        3650.68            5669.13
+    17        SUCCESS        03            03        2312.29        3878.26            6190.54
+    14        SUCCESS        02            02        954.98        5245.88            6200.86
+    13        SUCCESS        05            05        2153.89        4622.43            6776.32
+    20        SUCCESS        04            04        2830.31        4199.45            7029.76
+    26        SUCCESS        06            06        1708.11        5669.13            7377.24
+    22        SUCCESS        04            04        447.16        7029.76            7476.92
+    18        SUCCESS        03            03        1506.34        6190.54            7696.89
+    25        SUCCESS        02            02        1506.56        6200.86            7707.42
+    23        SUCCESS        04            04        759.84        7476.92            8236.76
+    27        SUCCESS        06            06        1118.02        7377.24            8495.26
+    28        SUCCESS        02            02        1830.13        7707.42            9537.54
+    16        SUCCESS        05            05        3137.92        6776.32            9914.24
+    24        SUCCESS        04            04        1956.5        8236.76            10193.26
+    29        SUCCESS        04            04        1897.12        10193.26            12090.38
+    21        SUCCESS        05            05        2606.37        9914.24            12520.61
+12520.608
+
+Best fitness value: 5963.809554270463
+Best makespan: 3126.130568252154
+PSO.PSO_Scheduler finished!
